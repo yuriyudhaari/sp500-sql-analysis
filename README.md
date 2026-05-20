@@ -110,6 +110,6 @@ The raw dataset is not in this repo. Save the S&P 500 daily prices CSV (Kaggle: 
 
 - Split detection is heuristic (magnitude-based). Catches real splits but also some large news moves; a production pipeline would use a corporate-actions feed.
 - No sector data in this dataset. Sector analysis would require an external mapping.
-- No fundamentals — prices only.
+- No fundamentals. Prices only.
 - 2014–2017 was a bull market. Findings don't generalize.
 - No survivorship adjustment.
